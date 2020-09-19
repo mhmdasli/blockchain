@@ -1,0 +1,26 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "blcok chain proof of work",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "load": "nodemon main.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "blockchain",
+    "nodejs"
+  ],
+  "author": {
+    "name": "mohmd ali",
+    "email": "m.ali2910@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
